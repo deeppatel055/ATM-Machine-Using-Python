@@ -89,10 +89,3 @@ class Atm:
         self.menu()
 
 obj = Atm()
-a = obj.get_balance()
-print(a)
-b = obj.set_balance("Hee")
-print(b)
-c = obj.withdraw()
-print(c)
-obj.cid()
